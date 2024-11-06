@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1 class="text-center text-5xl mt-20">Password Generator</h1>
+    <div class="">
+        <ul class="flex justify-center space-x-10 mt-10">
+            <li><button class="rounded-md bg-sky-500 p-5 text-white" onclick="char8()">8 Characters</button></li>
+            <li><button class="rounded-md bg-sky-500 p-5 text-white opacity-25 cursor-not-allowed">15 Characters</button></li>
+            <li><button class="rounded-md bg-sky-500 p-5 text-white opacity-25 cursor-not-allowed">20 Characters</button></li>
+            <li><button class="rounded-md bg-sky-500 p-5 text-white opacity-25 cursor-not-allowed">25 Characters</button></li>
+        </ul>
+    </div>
+    <h1 class="text-center text-3xl mt-10">Your Password is:</h1>
+    <h1 id="Password" class="w-60 mx-auto p-5 border-solid border-2 border-sky-500 rounded-md text-center text-3xl mt-10">Your Password</h1>
+    <script src="/index.js"></script>
+</body>
+</html>
